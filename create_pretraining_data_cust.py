@@ -20,7 +20,8 @@ from __future__ import print_function
 
 import collections
 import random
-import tokenization
+# import tokenization
+import tokenization_cust as tokenization
 import tensorflow as tf
 
 flags = tf.flags
